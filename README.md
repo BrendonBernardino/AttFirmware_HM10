@@ -52,7 +52,7 @@ Abra o prompt de comando (aperte Windows+R e depois Enter).
 Pelo prompt de comando, vá até onde o CCLoader.exe está localizado.
 Então escreva e execute:
 
-**CCLoader.exe [COM Port]** **[Firmware.bin]** **[Arduino Type]**
+## **CCLoader.exe [COM Port]** **[Firmware.bin]** **[Arduino Type]**
 
 Legenda:
 
