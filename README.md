@@ -1,6 +1,6 @@
 # AttFirmware_HM10
 
-Se seu HM-10 não responde a comandos AT, provavelmente ele é um HM-10 clonado. Então será necessário a atualização de firmware para que ele se comporte como um HM-10 genuíno.
+Se seu HM-10 não responde a comandos AT, possivelmente ele é um HM-10 clonado. (Provavelmente quando você tentar procurar o bluetooth, irá aparecer um nome diferente de HMSoft.)  Então será necessário a atualização de firmware para que ele se comporte como um HM-10 genuíno.
 Para a atualização de firmware, será preciso o Arduino UNO(ou o Mini Pro) e o CC2541.
 
 É necessário soldar fios no HM-10 para entao conectar aos pinos do Arduino, DEBUG_CLOCK, DEBUG_DATA, RESET_N.
@@ -71,6 +71,8 @@ Pronto, o firmware foi instalado.
 O que irá aparecer no seu prompt de comando deve ser algo similar a imagem abaixo:
   
 ![image](https://user-images.githubusercontent.com/47569587/133661375-14f3b297-bdd6-4c05-a387-3f87065d0d5d.png)
+
+Após o update do firmware, o nome do dispositivo ao ser buscado deve ser HMSoft.
 
   
 Para mais detalhes, consulte este link: https://capsistema.com.br/index.php/2021/02/02/guia-de-como-atualizar-o-firmware-no-modulo-clone-hm-10-ble-usando-o-arduino-uno/
