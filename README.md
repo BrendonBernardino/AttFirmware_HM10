@@ -64,7 +64,7 @@ Legenda:
 
 Um exemplo: (Se minha porta COM é a 5 e o meu Arduino é o UNO)
   
-**CCLoader.exe 5 CC2541hm10v540.bin 0**
+#**CCLoader.exe 5 CC2541hm10v540.bin 0**
   
 Pronto, o firmware foi instalado.
   
